@@ -1,5 +1,5 @@
 body {
-	background-image: url('piano.jpg');
+	background-image: url('concerthall.jpg');
 	background-size: cover;
 	font-family: 'Kalam', cursive;
 	width: 100%;
@@ -7,18 +7,22 @@ body {
 }
 
 #container {
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.9);
 	padding: 20px;
-	width: 90%;
+	width: 70%;
 	margin: auto;
+	text-align: center;
 }
 
 nav {
 	text-align: center;
+	background-color: white;
+    width: 80%;
+    margin: auto;
 }
 
 h1, h2 {
-	color: #a20c0c;
+	color: #261b81;
 }
 
 h1 {
@@ -27,36 +31,42 @@ h1 {
 
 a {
 	font-size: 2em;
-	color: #a20c0c;
+	color: #261b81;
 	padding: 10px;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #df0101;
+	color: #2c8aff;
 }
 
 input {
 	display: block;
-	margin: 10px;
-	padding: 5px;
-	font-size: 1em;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+    font-size: 1em;
+    width: 40%;
+	text-align: center;
 }
 
 .buttons {
 	padding: 5px;
 	font-size: 1.25em;
-	background-color: #a20c0c;
+	background-color: #261b81;
 	color: white;
 	font-family: 'Kalam', cursive;
 }
 
+.buttons:hover {
+	background-color: #2c8aff;
+}
+
 p {
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 
 .enteredWord {
-	color: #df0101;
+	color: #2c8aff;
 	font-size: 1.5em;
 	text-shadow: 1px 1px black;
 }
