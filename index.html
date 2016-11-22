@@ -1,0 +1,26 @@
+<!doctype html>
+<html  ng-app="madLibApp">
+<head>
+	<title>Mad Libs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Kalam:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+<div id ="container">
+	<nav>
+		<a href="#/form">Form</a>
+		<a href="#/madlib">MadLib</a>
+	</nav>
+
+	<div ng-view="">
+	</div>
+</div>
+
+<script src = "lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+<script src = "lib/madLibApp.js"></script>
+<script src = "lib/factory.js"></script>
+</body>
+</html>

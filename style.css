@@ -1,0 +1,64 @@
+body {
+	background-image: url('piano.jpg');
+	background-size: cover;
+	font-family: 'Kalam', cursive;
+	width: 100%;
+	margin: 20px;
+}
+
+#container {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 20px;
+	width: 90%;
+	margin: auto;
+}
+
+nav {
+	text-align: center;
+}
+
+h1, h2 {
+	color: #a20c0c;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+a {
+	font-size: 2em;
+	color: #a20c0c;
+	padding: 10px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #df0101;
+}
+
+input {
+	display: block;
+	margin: 10px;
+	padding: 5px;
+	font-size: 1em;
+}
+
+.buttons {
+	padding: 5px;
+	font-size: 1.25em;
+	background-color: #a20c0c;
+	color: white;
+	font-family: 'Kalam', cursive;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+.enteredWord {
+	color: #df0101;
+	font-size: 1.5em;
+	text-shadow: 1px 1px black;
+}
+
+
